@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202124;
+}
+
+main {
+    min-height: 60vh;
+}
+
+.container {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.doodle-search {
+    max-width: 500px;
+    width: 100%;
+}
+
+.search-box-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search-box {
+    margin-top: 2rem;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(95,99,104);
+    border-radius: 2rem;
+    width: 100%; 
+    padding: 1rem;
+}
+
+.input {
+    background-color: #202124;
+    border: none;
+    width: 100%;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.search-box img {
+    width: 20px;
+}
+
+.btn {
+    display: none;
+}
+
+.shape {
+    position: absolute;
+    right: 2rem;
+    bottom: .4rem;
+}
+
+.search-box:hover {
+    background: #303134;
+    border: 2px solid #303134;
+}
+
+.search-box:hover .input {
+    background: #303134;
+}
+
+.divider {
+    max-width: 600px;
+    height: 1px;
+    background-color: #5F6368;
+    margin-bottom: .5rem;
+}
+
+.suggestion {
+    position: absolute;
+    top: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 600px;
+    width: 100%;
+    background-color: #303134;
+    padding: 0 20px;
+    padding-top: .5rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    display: none;
+}
+
+.suggestion p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.suggestion img {
+    width: 20px; 
+    margin-right: 1rem;
+}
+
+.suggestion span {
+    font-size: 1.1rem;
+    color: white;
+}
+
+.search-box-style {
+    background: #303134;
+    border: 2px solid #303134;
+    border-radius: 0;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+}
+
+button {
+    width: 25px;
+    height: 20px;
+    background-color: #303134;
+    border: none;
+}
+
+.input-style {
+    background-color: #303134;
+}
